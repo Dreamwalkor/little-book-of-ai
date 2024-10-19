@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Open URL in Firefox",
+        "type": "shell",
+        "command": "open",
+        "args": [
+          "-a", "Firefox",
+          "http://localhost:5173/${relativeFileDirname}/${fileBasenameNoExtension}"
+        ],
+        "problemMatcher": [],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        }
+      }
+    ]
+  }

@@ -1,0 +1,11 @@
+node_modules/
+.ipynb_checkpoints/
+.log
+.env
+package-lock.json
+yarn.lock
+.DS_Store
+resources/
+_ignored/
+.vitepress/cache/*
+.vitepress/dist/*

@@ -1,0 +1,3 @@
+[submodule "camdict"]
+	path = camdict
+	url = https://github.com/zelic91/camdict
