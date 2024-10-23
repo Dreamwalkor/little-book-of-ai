@@ -9,3 +9,4 @@ resources/
 _ignored/
 .vitepress/cache/*
 .vitepress/dist/*
+**/__*
