@@ -18,7 +18,6 @@ export default withMermaid(
 
       sidebar: {
         '/cn/': [
-      
           { text: '00. 前言', link: '/cn/00' },
           { text: '01. 一个 AMA 机器人', link: '/cn/01' },
           { text: '02. 安全永远第一', link: '/cn/02' },
@@ -35,6 +34,7 @@ export default withMermaid(
           { text: '13. ChatGPT 之外', link: '/cn/13' },
           { text: '14. 关于插图', link: '/cn/14' },
           { text: '15. 后记', link: '/cn/15' },
+          { text: 'English Version', link: '/en/00' },          
         ],
         '/en/': [
           { text: '00. Forward', link: '/en/00' },
@@ -53,6 +53,7 @@ export default withMermaid(
           { text: '13. Besides ChatGPT', link: '/en/13' },
           { text: '14. About Illustrations', link: '/en/14' },
           { text: '15. Afterword', link: '/en/15' },
+          { text: '中文版', link: '/cn/00' },          
         ],
     },
 
